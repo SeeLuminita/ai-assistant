@@ -34,12 +34,15 @@ elif resume_text:
     content = resume_text
 
 # 润色选项
-col1, col2 = st.columns(2)
+col1, col2,col3,col4 = st.columns(4)
 with col1:
     target_job = st.text_input("目标岗位", placeholder="例如：Java开发工程师")
 with col2:
     focus = st.selectbox("优化重点", ["整体润色", "项目经验", "技术能力", "自我评价"])
-
+with col3:
+    remark = st.text_input("意向行业",placeholder="例如：保险金融、互联网、传统软件")
+with col4:
+    remark = st.text_area("补充信息",placeholder="例如：本人当前已婚已育",height=100)
 # 生成按钮
 if st.button("🚀 开始润色", type="primary"):
     if content:
