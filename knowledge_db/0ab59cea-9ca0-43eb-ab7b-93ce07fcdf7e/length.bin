@@ -1,7 +1,0 @@
-t or array_like of floats
-            Shape parameter for the distribution.  Must be in the range [0, 1).
-        size : int or tuple of ints, optional
-            Output shape.  If the given shape is, e.g., ``(m, n, k)``, then
-            ``m * n * k`` samples are drawn.  If size is ``None`` (default),
-            a single value is returned if ``p`` is a scalar.  Otherwise,
-            ``np.array
