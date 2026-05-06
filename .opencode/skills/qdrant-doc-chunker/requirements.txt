@@ -1,0 +1,13 @@
+# Qdrant文档切片向量存储依赖
+
+# Qdrant客户端
+qdrant-client>=1.7.0
+
+# OpenAI客户端（用于Embedding）
+openai>=1.0.0
+
+# PDF处理
+pypdf>=4.0.0
+
+# 环境变量
+python-dotenv>=1.0.0

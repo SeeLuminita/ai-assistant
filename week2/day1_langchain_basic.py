@@ -7,7 +7,7 @@ LangChain Day 1: 基础概念
 
 import os
 from dotenv import load_dotenv
-from langchain_openai import ChatOpenAI
+from langchain_openai import SS
 from langchain_core.prompts import ChatPromptTemplate
 
 load_dotenv()
@@ -17,7 +17,7 @@ load_dotenv()
 # ============================================
 print("=== 1. LLM 初始化 ===")
 
-llm = ChatOpenAI(
+llm = SS(
     model="qwen-turbo",
     openai_api_key=os.getenv("DASHSCOPE_API_KEY"),
     openai_api_base="https://dashscope.aliyuncs.com/compatible-mode/v1"

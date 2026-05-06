@@ -1,0 +1,35 @@
+技术栈规范
+
+1. 后端技术栈
+- 新项目：Python 3.10+ / FastAPI
+- 遗留项目：Java 11+ / Spring Boot
+- 要求：所有新项目必须使用 Python + FastAPI
+
+2. 前端技术栈
+- 框架：Vue 3 + TypeScript
+- UI组件库：Element Plus
+- 状态管理：Pinia
+- 构建工具：Vite
+
+3. 数据库
+- 关系型数据库：MySQL 8.0（主库）
+- 缓存：Redis 7.0
+- 文档型数据库：MongoDB 6.0（日志、配置存储）
+- 要求：核心业务数据必须使用 MySQL
+
+4. 部署方案
+- 容器化：Docker
+- 容器编排：Kubernetes
+- CI/CD：GitLab CI + ArgoCD
+- 要求：所有服务必须容器化部署
+
+5. 监控告警
+- 监控：Prometheus + Grafana
+- 日志：ELK（Elasticsearch + Logstash + Kibana）
+- 链路追踪：Jaeger
+- 告警：AlertManager + 钉钉/企业微信
+
+6. 代码规范
+- Python：遵循 PEP 8 规范，使用 Black 格式化
+- Java：遵循阿里巴巴 Java 开发手册
+- TypeScript：使用 ESLint + Prettier

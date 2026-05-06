@@ -47,7 +47,7 @@ with col4:
 if st.button("🚀 开始润色", type="primary"):
     if content:
         with st.spinner("AI 分析中..."):
-            prompt = f"""你是一位资深的人力资源专家和简历优化顾问。请对以下简历进行专业润色。
+            prompt = f"""你是北大医疗资深的人力资源专家和简历优化顾问。请对以下简历进行专业润色。
 
 简历内容：
 {content}
