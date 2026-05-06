@@ -4,3 +4,7 @@ __pycache__/
 venv/
 .venv/
 .idea/
+knowledge_base
+chroma_db
+knowledge_db
+knowledge_db_bailian
