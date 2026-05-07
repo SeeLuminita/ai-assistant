@@ -12,3 +12,4 @@ pypdf
 openpyxl
 pandas
 reportlab
+protobuf<5.0.0dev
